@@ -2,15 +2,17 @@
 
 ![basilisk keyboard](/images/finished3.jpeg)
 
-Basilisk is an ergonomic, split, 40%, handwired, "key-welled" keyboard using WeAct RP2040 boards designed in Fusion 360
+Basilisk is an ergonomic, split, 40%, handwired, "key-welled" keyboard using WeAct RP2040 boards designed in Fusion 360.
 
 -   Keyboard Maintainer: [Ignacy Radliński](https://github.com/radlinskii)
 -   Hardware Supported:
     -   [WeActStudio RP2040 board](https://github.com/WeActStudio/WeActStudio.RP2040CoreBoard)
     -   Panasonic EVQWGD001 rotary encoders
+    -   TRRS Jack
 -   Hardware Availability:
     -   https://www.aliexpress.com/item/1005003708090298.html?gatewayAdapt=glo2deu
     -   https://www.aliexpress.com/item/32990950196.html
+    -   https://splitkb.com/products/trrs-jacks?_pos=2&_sid=e304fe1ae&_ss=r
 
 Make example for this keyboard (after setting up your build environment):
 
