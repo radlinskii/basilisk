@@ -1,0 +1,6 @@
+SPLIT_KEYBOARD = yes
+SERIAL_DRIVER = vendor
+
+ENCODER_ENABLE = yes
+
+# DIP_SWITCH_ENABLE = yes
