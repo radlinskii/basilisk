@@ -139,23 +139,23 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 
     // right hand
     if (index == 1) {
-       if (IS_LAYER_ON(_COLEMAK) || (IS_LAYER_ON(_QWERTY))) {
+         if (IS_LAYER_ON(_NAV)) {
             if (clockwise) {
                 tap_code_delay(KC_UP, 10);
             } else {
                 tap_code_delay(KC_DOWN, 10);
             }
-        } else if (IS_LAYER_ON(_NAV)) {
+        } else if (IS_LAYER_ON(_MOUSE)) {
             if (clockwise) {
                 tap_code_delay(KC_PGUP, 10);
             } else {
                 tap_code_delay(KC_PGDN, 10);
             }
-        } else if (IS_LAYER_ON(_MOUSE)) {
+        } else {
             if (clockwise) {
-                tap_code_delay(KC_WH_U, 10);
-            } else {
                 tap_code_delay(KC_WH_D, 10);
+            } else {
+                tap_code_delay(KC_WH_U, 10);
             }
         }
     }
